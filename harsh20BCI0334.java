@@ -628,114 +628,112 @@
 
 // class harsh20BCI0334 {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         Scanner ReadInput = new Scanner(System.in);
+// Scanner ReadInput = new Scanner(System.in);
 
-//         System.out.print("Sentence = ");
-//         String sentence = ReadInput.nextLine();
-//         sentence = sentence.toLowerCase();
+// System.out.print("Sentence = ");
+// String sentence = ReadInput.nextLine();
+// sentence = sentence.toLowerCase();
 
-//         int num_of_vowels = 0;
+// int num_of_vowels = 0;
 
-//         for (int count = 0; count < sentence.length(); count++) {
-//             char ch = sentence.charAt(count);
-//             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-//                 num_of_vowels++;
-//             }
-//         }
+// for (int count = 0; count < sentence.length(); count++) {
+// char ch = sentence.charAt(count);
+// if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+// num_of_vowels++;
+// }
+// }
 
-//         System.out.println("\nNumber of vowels in the sentence = " + num_of_vowels);
+// System.out.println("\nNumber of vowels in the sentence = " + num_of_vowels);
 
-//         ReadInput.close();
+// ReadInput.close();
 
-//     }
+// }
 // }
 
 // import java.util.Scanner;
 
 // class harsh20BCI0334 {
 
-//     public static void main(String[] args) {
+// public static void main(String[] args) {
 
-//         Scanner ReadInput = new Scanner(System.in);
+// Scanner ReadInput = new Scanner(System.in);
 
-//         System.out.print("Username = ");
-//         String username = ReadInput.nextLine();
-//         System.out.print("Password = ");
-//         String password = ReadInput.nextLine();
+// System.out.print("Username = ");
+// String username = ReadInput.nextLine();
+// System.out.print("Password = ");
+// String password = ReadInput.nextLine();
 
-//         if (username.length() < 3) {
-//             System.out.println("\nWeak password !!");
-//             ReadInput.close();
-//             return;
-//         }
-
-//         for (int count = 0; count < username.length() - 3; count++) {
-//             if (password.contains(username.substring(count, count + 3))) {
-//                 System.out.println("\nWeak password !!");
-//             }
-//         }
-
-//         ReadInput.close();
-
-//     }
+// if (username.length() < 3) {
+// System.out.println("\nWeak password !!");
+// ReadInput.close();
+// return;
 // }
 
-import java.util.Scanner;
+// for (int count = 0; count < username.length() - 3; count++) {
+// if (password.contains(username.substring(count, count + 3))) {
+// System.out.println("\nWeak password !!");
+// }
+// }
 
-class Student {
+// ReadInput.close();
 
-    String name, address, reg_num, email_id;
-    long phone_number;
+// }
+// }
 
-    Scanner ReadInput = new Scanner(System.in);
+// class Student {
 
-    Student() {
-        name = "";
-        address = "";
-        reg_num = "";
-        email_id = "";
-        phone_number = 0l;
-    }
+// String name, address, reg_num, email_id;
+// long phone_number;
 
-    Student(String name, String address, String reg_num, Long phone_number, String email_id) {
-        this.name = name;
-        this.address = address;
-        this.reg_num = reg_num;
-        this.phone_number = phone_number;
-        this.email_id = email_id;
-    }
+// Scanner ReadInput = new Scanner(System.in);
 
-    void addProfileInfo() {
+// Student() {
+// name = "";
+// address = "";
+// reg_num = "";
+// email_id = "";
+// phone_number = 0l;
+// }
 
-        System.out.print("\nEnter your Name - ");
-        name = ReadInput.nextLine();
+// Student(String name, String address, String reg_num, Long phone_number,
+// String email_id) {
+// this.name = name;
+// this.address = address;
+// this.reg_num = reg_num;
+// this.phone_number = phone_number;
+// this.email_id = email_id;
+// }
 
-        System.out.print("Enter your Address - ");
-        address = ReadInput.nextLine();
+// void addProfileInfo() {
 
-        System.out.print("Enter your Reg Number - ");
-        reg_num = ReadInput.next();
+// System.out.print("\nEnter your Name - ");
+// name = ReadInput.nextLine();
 
-        System.out.print("Enter your Phone Number - ");
-        phone_number = ReadInput.nextLong();
+// System.out.print("Enter your Address - ");
+// address = ReadInput.nextLine();
 
-        System.out.print("Enter your Email ID - ");
-        email_id = ReadInput.next();
+// System.out.print("Enter your Reg Number - ");
+// reg_num = ReadInput.next();
 
-    }
+// System.out.print("Enter your Phone Number - ");
+// phone_number = ReadInput.nextLong();
 
-    void viewProfileInfo() {
-        System.out.println("\n\nStudent Profile Information\n");
-        System.out.println("Name - " + name);
-        System.out.println("Address - " + address);
-        System.out.println("Registration Number - " + reg_num);
-        System.out.println("Phone Number - " + phone_number);
-        System.out.println("Email id - " + email_id);
-    }
+// System.out.print("Enter your Email ID - ");
+// email_id = ReadInput.next();
 
-}
+// }
+
+// void viewProfileInfo() {
+// System.out.println("\n\nStudent Profile Information\n");
+// System.out.println("Name - " + name);
+// System.out.println("Address - " + address);
+// System.out.println("Registration Number - " + reg_num);
+// System.out.println("Phone Number - " + phone_number);
+// System.out.println("Email id - " + email_id);
+// }
+// }
 
 // class harsh20BCI0334 {
 // public static void main(String[] args) {
@@ -1240,3 +1238,247 @@ class Student {
 // }
 
 // }
+
+// import java.util.Scanner;
+// import java.util.Arrays;
+
+// class Customer {
+
+// String customer_name;
+// String favourite_food;
+
+// Customer() {
+// customer_name = "";
+// favourite_food = "";
+// }
+
+// Customer(String customer_name, String favourite_food) {
+// this.customer_name = customer_name;
+// this.favourite_food = favourite_food;
+// }
+
+// void input() {
+// Scanner sc = new Scanner(System.in);
+
+// System.out.println("Enter the name of the customer - ");
+// customer_name = sc.nextLine();
+// System.out.println("Enter the favourite food of the customer - ");
+// favourite_food = sc.nextLine();
+
+// sc.close();
+// }
+
+// void display() {
+// System.out.println("\n\nCustomer Details\n");
+// System.out.println("Customer Name - " + customer_name);
+// System.out.println("Favourite Food of the Customer - " + favourite_food);
+// }
+
+// }
+
+// class harsh20BCI0334 {
+// public static void main(String[] args) {
+// int n = 10;
+
+// Customer customers[] = new Customer[n];
+
+// for (int count = 0; count < n; count++) {
+// customers[count] = new Customer();
+// customers[count].input();
+// }
+
+// String foods[] = new String[n];
+// for (int count = 0; count < n; count++) {
+// foods[count] = "";
+// }
+
+// String common = "";
+
+// for (int count = 0; count < n; count++) {
+// if (Arrays.asList(foods).contains(customers[count].favourite_food)) {
+// foods[count] = customers[count].favourite_food;
+// continue;
+// }
+// common = customers[count].favourite_food;
+// }
+
+// if (common.isEmpty()) {
+// System.out.println("\n\nNo Customers have a common food");
+// } else {
+// System.out.println("\n\nCustomers with a common favourite food\n");
+// for (int count = 0; count < n; count++) {
+// if (customers[count].favourite_food.equalsIgnoreCase(common)) {
+// customers[count].display();
+// }
+// }
+// }
+// }
+// }
+
+// import java.util.Scanner;
+
+// public class harsh20BCI0334 {
+
+// public static void main(String[] args) {
+
+// Scanner ReadInput = new Scanner(System.in);
+
+// System.out.print("n = ");
+// int n = ReadInput.nextInt();
+
+// for (int i = 1; i <= n; i++) {
+// for (int j = 1; j <= i; j++) {
+// System.out.print("*");
+// }
+// System.out.println();
+// }
+
+// ReadInput.close();
+
+// }
+
+// }
+
+// import java.util.Scanner;
+
+// public class harsh20BCI0334 {
+
+// public static void main(String[] args) {
+
+// Scanner ReadInput = new Scanner(System.in);
+
+// System.out.print("n = ");
+// int n = ReadInput.nextInt();
+
+// int sum = 0;
+
+// for (int count = 0; count < n; count++) {
+// System.out.println("Enter a number");
+// int temp = ReadInput.nextInt();
+// if (temp % 2 == 0) {
+// System.out.println("Enter an odd number");
+// continue;
+// }
+// sum += temp;
+// }
+
+// System.out.println("The sum of odd numbers - " + sum);
+
+// ReadInput.close();
+
+// }
+
+// }
+
+// import java.util.Scanner;
+
+// public class harsh20BCI0334 {
+
+// static boolean checkPrime(int num) {
+// if (num < 2) {
+// return false;
+// }
+// for (int count = 2; count <= (num / 2); count++) {
+// if (num % count == 0) {
+// return false;
+// }
+// }
+// return true;
+// }
+
+// public static void main(String[] args) {
+
+// Scanner ReadInput = new Scanner(System.in);
+
+// int n = 5;
+
+// for (int count = 0; count < n; count++) {
+// System.out.println("Enter a number");
+// int temp = ReadInput.nextInt();
+// if (checkPrime(temp)) {
+// System.out.println("You have entered a prime number - " + temp);
+// break;
+// }
+// }
+
+// ReadInput.close();
+
+// }
+
+// }
+
+// import java.util.Scanner;
+
+// public class harsh20BCI0334 {
+
+// public static void main(String[] args) {
+
+// Scanner ReadInput = new Scanner(System.in);
+
+// System.out.println("Enter number 1 -");
+// int num1 = ReadInput.nextInt();
+// System.out.println("Enter number 2 -");
+// int num2 = ReadInput.nextInt();
+
+// while (true) {
+// System.out.println("Enter an operation -");
+// char operation = ReadInput.next().charAt(0);
+// switch (operation) {
+// case '+':
+// System.out.println("The sum of 2 numbers - " + (num1 + num2));
+// break;
+// case '-':
+// System.out.println("The difference of 2 numbers - " + (num1 - num2));
+// break;
+// case '*':
+// System.out.println("The product of 2 numbers - " + (num1 * num2));
+// break;
+// case '%':
+// System.out.println("The modulus of 2 numbers - " + (num1 % num2));
+// break;
+// default:
+// System.out.println("INVALID INPUT");
+// }
+// System.out.println("Do you want to continue -");
+// char ans = ReadInput.next().charAt(0);
+// if (!(ans == 'y' || ans == 'Y')) {
+// break;
+// }
+// }
+
+// ReadInput.close();
+
+// }
+// }
+
+public class harsh20BCI0334 {
+
+    static boolean checkPrime(int num) {
+        if (num < 2) {
+            return false;
+        }
+        for (int count = 2; count <= (num / 2); count++) {
+            if (num % count == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+
+        int a[][] = { { 1, 2, 3, 4 }, { 1, 2, 3 }, { 1, 2 }, { 1 } };
+
+        int count = 0;
+
+        for (int row = 0; row < a.length; row++) {
+            for (int column = 0; column < a[row].length; column++) {
+                if (checkPrime(a[row][column])) {
+                    count++;
+                }
+            }
+        }
+
+        System.out.println("The number of prime numbers in the jagged array - " + count);
+    }
+}
